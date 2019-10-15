@@ -1,5 +1,5 @@
 {
-  "name": "async-loops",
+  "name": "array-async-foreach",
   "version": "1.0.0",
   "description": "Convenience method to loop over an array with an async function",
   "main": "index.js",
