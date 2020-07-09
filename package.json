@@ -13,6 +13,6 @@
   "author": "Carlo Zamagni",
   "license": "ISC",
   "devDependencies": {
-    "tap": "^14.7.0"
+    "tap": "^14.10.7"
   }
 }
