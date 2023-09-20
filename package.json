@@ -4,7 +4,8 @@
   "description": "Convenience method to loop over an array with an async function",
   "main": "index.js",
   "scripts": {
-    "test": "tap test.js"
+    "test": "tap test.js",
+    "lint": "standard --fix"
   },
   "repository": {
     "type": "git",
@@ -13,6 +14,7 @@
   "author": "Carlo Zamagni",
   "license": "ISC",
   "devDependencies": {
-    "tap": "^14.10.7"
+    "standard": "^17.1.0",
+    "tap": "^18.0.4"
   }
 }
