@@ -1,7 +1,7 @@
 'use strict'
 
-const t = require('tap')
-const asLoops = require('./index')
+import t from 'tap'
+import forEachAsync from './index.js'
 
 const sut = [1, 2, 3, 4, 5]
 
@@ -27,7 +27,7 @@ t.test('should perform array loop async', async (t) => {
 
   const results = []
 
-  await asLoops.forEachAsync(sut, async (s) => {
+  await forEachAsync(sut, async (s) => {
     await wait()
     results.push(s * 2)
   })
