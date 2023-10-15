@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "Convenience method to loop over an array with an async function",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "tap test.js",
     "lint": "standard --fix"
