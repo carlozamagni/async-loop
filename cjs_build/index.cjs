@@ -6,4 +6,4 @@ async function forEachAsync (array, cb) {
   }
 }
 
-export default forEachAsync
+module.exports = forEachAsync
